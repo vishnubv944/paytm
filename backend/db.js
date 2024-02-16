@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 
 try{
-    mongoose.connect('mongodb+srv://vishnubv944:vishnubv2002@cluster0.30sovri.mongodb.net/paytm');
+    mongoose.connect('mongodb+srv://vishnubv944:<PASSWORD>@cluster0.30sovri.mongodb.net/paytm');
 
     dbConnection = mongoose.connection
     
